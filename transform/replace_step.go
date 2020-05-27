@@ -88,9 +88,9 @@ func (s *ReplaceStep) Merge(other Step) (Step, bool) {
 // ToJSON is a method of the Step interface.
 func (s *ReplaceStep) ToJSON() map[string]interface{} {
 	obj := map[string]interface{}{
-		"type": "replace",
-		"from": s.From,
-		"to":   s.To,
+		"stepType": "replace",
+		"from":     s.From,
+		"to":       s.To,
 	}
 	if s.Slice.Size() > 0 {
 		obj["slice"] = s.Slice.ToJSON()
@@ -206,12 +206,12 @@ func (s *ReplaceAroundStep) Merge(other Step) (Step, bool) {
 // ToJSON is a method of the Step interface.
 func (s *ReplaceAroundStep) ToJSON() map[string]interface{} {
 	obj := map[string]interface{}{
-		"type":    "replaceAround",
-		"from":    s.From,
-		"to":      s.To,
-		"gapFrom": s.GapFrom,
-		"gapTo":   s.GapTo,
-		"insert":  s.Insert,
+		"stepType": "replaceAround",
+		"from":     s.From,
+		"to":       s.To,
+		"gapFrom":  s.GapFrom,
+		"gapTo":    s.GapTo,
+		"insert":   s.Insert,
 	}
 	if s.Slice.Size() > 0 {
 		obj["slice"] = s.Slice.ToJSON()
