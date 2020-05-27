@@ -2,7 +2,7 @@
 // can be reused in other schemas.
 package basic
 
-import "github.com/cozy/prosemirror-go/model"
+import "github.com/MyDramaList/prosemirror-go/model"
 
 var (
 	empty = ""

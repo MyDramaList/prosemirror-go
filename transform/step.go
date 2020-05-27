@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cozy/prosemirror-go/model"
+	"github.com/MyDramaList/prosemirror-go/model"
 )
 
 // Step objects represent an atomic change. It generally applies only to the

@@ -1,8 +1,8 @@
 package model_test
 
 import (
-	. "github.com/cozy/prosemirror-go/model"
-	"github.com/cozy/prosemirror-go/test/builder"
+	. "github.com/MyDramaList/prosemirror-go/model"
+	"github.com/MyDramaList/prosemirror-go/test/builder"
 )
 
 var (

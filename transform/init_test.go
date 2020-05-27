@@ -1,6 +1,6 @@
 package transform
 
-import "github.com/cozy/prosemirror-go/test/builder"
+import "github.com/MyDramaList/prosemirror-go/test/builder"
 
 var (
 	schema = builder.Schema

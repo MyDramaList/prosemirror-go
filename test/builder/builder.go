@@ -35,9 +35,9 @@ package builder
 import (
 	"fmt"
 
-	"github.com/cozy/prosemirror-go/model"
-	"github.com/cozy/prosemirror-go/schema/basic"
-	"github.com/cozy/prosemirror-go/schema/list"
+	"github.com/MyDramaList/prosemirror-go/model"
+	"github.com/MyDramaList/prosemirror-go/schema/basic"
+	"github.com/MyDramaList/prosemirror-go/schema/list"
 )
 
 // Spec can be used to add custom builders—if given, it should be an object

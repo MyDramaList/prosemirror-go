@@ -3,8 +3,8 @@ package model_test
 import (
 	"testing"
 
-	. "github.com/cozy/prosemirror-go/model"
-	"github.com/cozy/prosemirror-go/test/builder"
+	. "github.com/MyDramaList/prosemirror-go/model"
+	"github.com/MyDramaList/prosemirror-go/test/builder"
 	"github.com/stretchr/testify/assert"
 )
 

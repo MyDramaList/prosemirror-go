@@ -3,10 +3,10 @@ package markdown
 import (
 	"testing"
 
-	"github.com/cozy/prosemirror-go/model"
-	"github.com/cozy/prosemirror-go/schema/basic"
-	"github.com/cozy/prosemirror-go/schema/list"
-	"github.com/cozy/prosemirror-go/test/builder"
+	"github.com/MyDramaList/prosemirror-go/model"
+	"github.com/MyDramaList/prosemirror-go/schema/basic"
+	"github.com/MyDramaList/prosemirror-go/schema/list"
+	"github.com/MyDramaList/prosemirror-go/test/builder"
 	"github.com/stretchr/testify/assert"
 )
 
